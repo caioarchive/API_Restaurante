@@ -1,72 +1,90 @@
-Aqui está o README da API de Receitas no mesmo estilo:
-
-🍳 API de Receitas Culinárias
+# 🍳 API de Receitas Culinárias
 API RESTful para gerenciamento de receitas culinárias, chefs, usuários e interações sociais como curtidas, favoritos e comentários.
 
-🚀 Tecnologias Utilizadas
+---
 
-Backend: Node.js
-Banco de Dados: MySQL
-ORM: Sequelize
-Autenticação: JWT
-Upload de Arquivos: Multer
-Documentação: Swagger/OpenAPI
+## 🚀 Tecnologias Utilizadas
+- **Backend:** Node.js
+- **Banco de Dados:** MySQL
+- **ORM:** Sequelize
+- **Autenticação:** JWT
+- **Upload de Arquivos:** Multer
+- **Documentação:** Swagger/OpenAPI
 
+---
 
-📌 Funcionalidades
-👨‍🍳 Chefs
+## 📌 Funcionalidades
 
-CRUD completo com paginação e busca
-Vínculo com receitas cadastradas
+### 👨‍🍳 Chefs
+- CRUD completo com paginação e busca
+- Vínculo com receitas cadastradas
 
-🍽️ Receitas
+### 🍽️ Receitas
+- CRUD com filtros e paginação
+- Vínculo a chefs responsáveis
+- Upload de imagens via Multer
 
-CRUD com filtros e paginação
-Vínculo a chefs responsáveis
-Upload de imagens via Multer
+### 👤 Usuários
+- Registro e autenticação
+- Atualização de perfil
+- Segurança com hash de senha
 
-👤 Usuários
+### 🔐 Autenticação JWT
+- Login e logout
+- Refresh token
+- Middleware de proteção de rotas
 
-Registro e autenticação
-Atualização de perfil
-Segurança com hash de senha
+### ❤️ Interações Sociais
+- **Favoritas:** Usuários podem salvar e gerenciar receitas favoritas
+- **Curtidas:** Curtir/descurtir receitas com ranking das mais populares
+- **Comentários:** CRUD com avaliação por estrelas e moderação
 
-🔐 Autenticação JWT
+---
 
-Login e logout
-Refresh token
-Middleware de proteção de rotas
+## 📄 Rotas Principais
 
-❤️ Interações Sociais
-
-Favoritas: Usuários podem salvar e gerenciar receitas favoritas
-Curtidas: Curtir/descurtir receitas com ranking das mais populares
-Comentários: CRUD com avaliação por estrelas e moderação
-
-
-📄 Rotas Principais
 Após iniciar o servidor, acesse a documentação completa das rotas via Swagger em:
+```
 http://localhost:3000/api-docs
+```
 
-⚙️ Instalação e Configuração
-1. Clone o repositório
-bashgit clone https://github.com/caioarchive/api_receitas.git
+---
+
+## ⚙️ Instalação e Configuração
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/caioarchive/api_receitas.git
 cd api-receitas
-2. Instale as dependências
-bashnpm install
-3. Execute o projeto
-bashnpm run dev
+```
 
-🔐 Credenciais de Acesso
+### 2. Instale as dependências
+```bash
+npm install
+```
+
+### 3. Execute o projeto
+```bash
+npm run dev
+```
+
+---
+
+## 🔐 Credenciais de Acesso
 Para testar a API, utilize as seguintes credenciais:
 
-Usuário: email@test.com · Senha: senha123
+- **Usuário:** email@test.com · Senha: senha123
 
+---
 
-🚀 Objetivo
+## 🚀 Objetivo
 O projeto busca oferecer uma API completa para plataformas culinárias, garantindo:
+- Organização e escalabilidade
+- Autenticação segura
+- Interações sociais entre usuários
+- Documentação clara e acessível
 
-Organização e escalabilidade
-Autenticação segura
-Interações sociais entre usuários
-Documentação clara e acessível
+---
+
+## 👤 Autor
+**Caio Miguel** · [github.com/caioarchive](https://github.com/caioarchive) · [linkedin.com/in/caioarchive](https://linkedin.com/in/caioarchive)
