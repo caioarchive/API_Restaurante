@@ -70,13 +70,6 @@ npm run dev
 
 ---
 
-## 🔐 Credenciais de Acesso
-Para testar a API, utilize as seguintes credenciais:
-
-- **Usuário:** email@test.com · Senha: senha123
-
----
-
 ## 🚀 Objetivo
 O projeto busca oferecer uma API completa para plataformas culinárias, garantindo:
 - Organização e escalabilidade
@@ -85,6 +78,3 @@ O projeto busca oferecer uma API completa para plataformas culinárias, garantin
 - Documentação clara e acessível
 
 ---
-
-## 👤 Autor
-**Caio Miguel** · [github.com/caioarchive](https://github.com/caioarchive) · [linkedin.com/in/caioarchive](https://linkedin.com/in/caioarchive)
